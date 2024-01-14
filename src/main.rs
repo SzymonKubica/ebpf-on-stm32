@@ -11,6 +11,7 @@ use stm32f4xx_hal as hal;
 
 use crate::hal::{pac, prelude::*};
 
+
 #[entry]
 fn main() -> ! {
     if let (Some(dp), Some(cp)) = (
